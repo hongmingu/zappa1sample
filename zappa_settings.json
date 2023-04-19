@@ -1,0 +1,16 @@
+{
+    "dev": {
+        "aws_region": "ap-northeast-2",
+        "django_settings": "zappa1sample.settings",
+        "project_name": "zappa1sample",
+        "runtime": "python3.9",
+        "s3_bucket": "lambda-saver12123"
+    },
+    "production": {
+        "aws_region": "ap-northeast-2",
+        "django_settings": "zappa1sample.settings",
+        "project_name": "zappa1sample",
+        "runtime": "python3.9",
+        "s3_bucket": "lambda-saver12123"
+    }
+}
